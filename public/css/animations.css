@@ -10,8 +10,38 @@
   }
 }
 
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes right {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform:  translateY(0);
+  }
+}
+
 .animate-up {
   animation-name: up;
   animation-duration: 300ms;
+  animation-fill-mode: backwards;
+}
+
+.animate-right {
+  animation-name: right;
+  animation-duration: 300ms;
+  animation-fill-mode: backwards;
+}
+
+.animate-appear {
+  animation-name: appear;
+  animation-duration: 300;
   animation-fill-mode: backwards;
 }
