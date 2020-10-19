@@ -1,0 +1,27 @@
+{
+  "name": "happy-web",
+  "version": "1.0.0",
+  "description": "<div align=\"center\"> \t<img src=\"assets/img/logo.png\" alt=\"Happy Banner\"> </div>",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RaioneNascimento/happy-web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RaioneNascimento/happy-web/issues"
+  },
+  "homepage": "https://github.com/RaioneNascimento/happy-web#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.5"
+  }
+}
