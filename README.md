@@ -1,7 +1,7 @@
 ## happy
 
 <div align="center" >
-	<img border="1px solid #000" src="./public/images/markdown/logo_happy.png" alt="Happy Banner">
+	<img src="./public/images/markdown/logo_happy.png" alt="Happy Banner">
 </div>
 
 <div align="center">
@@ -40,7 +40,7 @@
 
 <h3 align=center>
   
-Happy é uma aplicação desenvolvida na semana **Next Level Week 3.0** da <kbd>**[Rocketseat](https://www.rocketseat.com.br)**</kbd> utilizando as tecnologias **HTML, CSS, JavaScript, Node** e **SQLite.**
+Happy é uma aplicação desenvolvida na semana **Next Level Week 3.0** da **[Rocketseat](https://www.rocketseat.com.br)** utilizando as tecnologias **HTML, CSS, JavaScript, Node** e **SQLite.**
 
 </h3>
 
@@ -51,7 +51,7 @@ Happy é uma aplicação desenvolvida na semana **Next Level Week 3.0** da <kbd>
 ## 🚀 Objetivo 
 
 <p align=justify> 
-  A aplicação tem como finalidade <strong>buscar</strong> os <strong>orfanatos/abigos</strong>, aproximando <strong>casais</strong> que queiram visitar e ajudar as <strong>crianças carentes</strong>, onde foram acolhidas em situação de alta vulnerabilidade, garantindo a elas seu direito de um lar, enquanto aguardam sua reitegração à sociedade, seja na própria família ou famílias adotivas.
+  A aplicação tem como finalidade <strong>buscar</strong> os <strong>orfanatos/abrigos</strong>, aproximando <strong>todos</strong> que queiram visitar e ajudar as <strong>crianças carentes</strong>, que foram acolhidas em situação de alta vulnerabilidade, garantindo a elas o direito de um lar, enquanto aguardam sua reitegração à sociedade, seja na própria família ou famílias adotivas.
 </p>
 
 
@@ -69,17 +69,17 @@ Happy é uma aplicação desenvolvida na semana **Next Level Week 3.0** da <kbd>
 
 #### 👨🏽‍💻  **Utilitários**
 
-  - Protótipo: **[Figma](https://www.figma.com/)** &rarr; **<kbd>[Protótipo (HappyWeb)](https://www.figma.com/file/bc18hrewIjprEYRLk7A0gg/Happy-Web-(Copy)?node-id=0%3A1)</kbd>**
-  - Editor: **[Visual Studio Code](https://code.visualstudio.com/download)** &rarr; Extensions: **<kbd>[SQLite Extension](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite)</kbd>**
+  - Protótipo: **[Figma](https://www.figma.com/)** &rarr; **[Protótipo (HappyWeb)](https://www.figma.com/file/bc18hrewIjprEYRLk7A0gg/Happy-Web-(Copy)?node-id=0%3A1)**
+  - Editor: **[Visual Studio Code](https://code.visualstudio.com/download)** &rarr; Extensions: **[SQLite Extension](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite)**
   - Fontes: **[Nunito](https://fonts.google.com/specimen/Nunito?query=nunito)**
 
 ### ***Configurações Iniciais***
 
-Primeiro, você precisa ter o <kbd>[NodeJS](https://nodejs.org/en/download/)</kbd> instalado na sua máquina. 
+Primeiro, você precisa ter o [NodeJS](https://nodejs.org/en/download/) instalado na sua máquina. 
 
-Se você estiver utilizando o **Linux** ou **MacOS**, você pode optar por instalar o **Node** através do gerênciador de versões através do<kbd>[link](https://nodejs.org/en/download/package-manager/)</kbd> para facilitar o processo de mudança da versão do **Node**, quando for necessário.
+Se você estiver utilizando o **Linux** ou **MacOS**, você pode optar por instalar o **Node** através do gerênciador de versões através do [link](https://nodejs.org/en/download/package-manager/) para facilitar o processo de mudança da versão do **Node**, quando for necessário.
 
-Você pode optar também por utilizar o **yarn** no lugar do **npm**. Você pode instalar clicando nesse <kbd>[yarn](https://yarnpkg.com/)</kbd>, ou através do <kbd>[link](https://classic.yarnpkg.com/pt-BR/docs/install/#debian-stable)</kbd>.
+Você pode optar também por utilizar o **yarn** no lugar do **npm**. Você pode instalar clicando nesse [yarn](https://yarnpkg.com/), ou através do [link](https://classic.yarnpkg.com/pt-BR/docs/install/#debian-stable).
 
 Instale as dependências contidas nos arquivos `package.json` que se encontram na raíz do repositório (para o gerenciamento de commits), no diretório do **server** e no diretório do **website**. Para instalar as dependências, basta abrir o terminal no diretório e digitar o comando:
 
@@ -94,16 +94,16 @@ $ yarn
 ### ***Utilizando o Server***
 
 ```sh
-# Abrindo o terminal no diretório do servidor:
-$ cd ./sources/server
+# Abrindo o terminal no diretório da aplicação:
+$ cd /happy-web
 
-# Executando a aplicação em modo de desenvolvimento:
-$ npm run dev
+# Executando a aplicação web:
+$ npm start
 ```
 
-## 🙏 Agradecimento
+## 🙏 Considerações finais
 
-Agradeço a Rocketseat por nos mostrar que não há limite para a imaginação, por sempre incentivar os novos desenvolvedores e nos proporcionar o conhecimento para que possamos enfrentar novos desafios.
+Fica aqui o agradecimento ao Diego Fernandes e Mayk Brito por sempre disponibilizar materiais de qualidade da rocketseat e nos mostrar que ***o aprendizado é contínuo e sempre haverá um próximo nível***.
 
 <div align="center">
 
