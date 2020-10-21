@@ -83,3 +83,16 @@ function toggleSelect(event) {
 
   input.value = button.dataset.value
 }
+
+function validade(event) {
+  // validar se lat e lng estão preenchidos
+  const latitude = document.querySelector('#lat').value
+  const longitude = document.querySelector('#lng').value
+
+  if(latitude == '' && longitude == '') {
+    alert('Verifique se a localização foi selecionada')
+    event.preventDefault()
+  } else {
+    return
+  }
+}

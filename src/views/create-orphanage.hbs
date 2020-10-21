@@ -47,14 +47,14 @@
       </aside>
 
       <main class="animate-appear with-sidebar">
-        <form action="">
+        <form action="save-orphanage" method="post" onsubmit="validade(event)">
           <fieldset>
             <legend>Dados</legend>
 
             <div class="map-container">
               <div id="mapid"></div>
-              <input type="hidden" name="lat">
-              <input type="hidden" name="lng">
+              <input type="hidden" id="lat" name="lat">
+              <input type="hidden" id="lng" name="lng">
 
               <footer>
                 <a href="#" id="select-point">
@@ -87,6 +87,7 @@
                     name="images" 
                     placeholder="Cole o link da foto aqui" 
                     required
+                    type="url"
                   />
                   <span onclick="deleteField(event)">
                     <img 
